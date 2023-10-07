@@ -1,0 +1,4 @@
+1. Need to run certbot. Find a place to save the certs
+2. Keyvaults to dump ssh keys + ssl certs
+3. CI/CD
+
