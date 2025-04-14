@@ -112,7 +112,7 @@ data "azurerm_resource_group" "zones_rg" {
 }
 
 data "azurerm_dns_zone" "irfan-dns-zone" {
-  name                = "irfan-k8s.bips.bjsscloud.net"
+  name                = "irfan-k8s.change-this.example.net"
   resource_group_name = data.azurerm_resource_group.zones_rg.name
 }
 
