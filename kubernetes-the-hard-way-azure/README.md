@@ -5,7 +5,7 @@ This project consists of two things:
 2) A design for a basic algorithm to obtain Let's Encrypt certs automatically used on the app-gateway of which the controller nodes sit behind.
 
 ## Steps to get this to work:
-
+ 0. Update the FQDN under azurerm_dns_zone.irfan-dns-zone (in kubernetes-tf/appgw.tf) with valid one.
  1. Deploy infra. to obtain Let's Enc. certificate for SSL
 ```
 terraform -chdir=letsencrypt-tf -var="tenant_id=ten_id123456" -var="subscription_id=sub_id123456" apply <<< yes
